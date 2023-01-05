@@ -127,8 +127,9 @@
   }
 
   .u-section-1 .u-group-1 {
-    margin-top: 1px;
-    margin-left: -60px;
+    width: 373px;
+    margin-top: 0;
+    margin-left: -33px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -163,8 +164,8 @@
   .u-section-1 .u-image-1 {
     width: 137px;
     height: 136px;
-    margin-top: -366px;
-    margin-right: -14px;
+    margin-top: -368px;
+    margin-right: -50px;
     margin-bottom: 60px;
   }
 } .u-section-2 {
@@ -775,46 +776,15 @@
     margin-right: 0;
   }
 }.u-section-5 .u-sheet-1 {
-  min-height: 911px;
+  min-height: 720px;
 }
 
 .u-section-5 .u-text-1 {
   margin: 60px auto 0 0;
 }
 
-.u-section-5 .u-blog-1 {
-  margin-top: 49px;
-  margin-bottom: 0;
-}
-
-.u-section-5 .u-repeater-1 {
-  grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
-  min-height: 539px;
-  grid-gap: 10px;
-}
-
-.u-section-5 .u-repeater-item-1 {
-  box-shadow: 0px 0px 8px 0px rgba(128,128,128,1);
-}
-
-.u-section-5 .u-container-layout-1 {
-  padding: 30px 20px;
-}
-
-.u-section-5 .u-image-1 {
-  height: 378px;
-  width: 323px;
-  object-position: 50% 100%;
-  margin: 5px auto 0;
-}
-
 .u-section-5 .u-text-2 {
-  font-size: 1.875rem;
-  margin: 18px 10px 0;
-}
-
-.u-section-5 .u-text-3 {
-  margin: 49px auto 0 0;
+  margin: 50px auto 0 11px;
 }
 
 .u-section-5 .u-btn-1 {
@@ -823,52 +793,66 @@
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 1px;
-  margin: -32px auto 60px 166px;
+  margin: -33px auto 0 166px;
   padding: 9px 41px 11px 40px;
 }
 
+.u-section-5 .u-list-1 {
+  width: 282px;
+  margin: 60px auto 60px 30px;
+}
+
+.u-section-5 .u-repeater-1 {
+  grid-auto-columns: 100%;
+  grid-template-columns: repeat(1, 100%);
+  min-height: 375px;
+  grid-gap: 10px;
+}
+
+.u-section-5 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-5 .u-group-1 {
+  box-shadow: 0px 0px 8px 0px rgba(128,128,128,1);
+  min-height: 375px;
+}
+
+.u-section-5 .u-container-layout-2 {
+  padding: 0;
+}
+
+.u-section-5 .u-image-1 {
+  width: 263px;
+  height: 285px;
+  margin: 7px auto 0;
+}
+
+.u-section-5 .u-text-3 {
+  margin: 30px -14px 0;
+}
+
+.u-section-5 .u-btn-2 {
+  background-image: none;
+  font-size: 1.25rem;
+  text-transform: none;
+}
+
 @media (max-width: 1199px) {
-  .u-section-5 .u-blog-1 {
-    min-height: 375px;
-  }
-
-  .u-section-5 .u-repeater-1 {
-    min-height: 443px;
-  }
-
-  .u-section-5 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   .u-section-5 .u-btn-1 {
-    margin-top: 20px;
     margin-left: 0;
   }
-}
 
-@media (max-width: 991px) {
-  .u-section-5 .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 5px));
-    min-height: 513px;
-  }
-}
-
-@media (max-width: 767px) {
   .u-section-5 .u-repeater-1 {
     grid-template-columns: 100%;
   }
 
-  .u-section-5 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+  .u-section-5 .u-group-1 {
+    min-height: auto;
   }
-}
 
-@media (max-width: 575px) {
   .u-section-5 .u-image-1 {
-    height: 374px;
-    width: 320px;
+    height: 284px;
   }
 } .u-section-6 {
   background-image: linear-gradient(0deg, rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("https://images02.nicepagecdn.com/1d31148adef95e3516030f99/b77dcb5921a35455880f592e/focus-ophtalmie-des-neiges-small-01.jpg");
